@@ -3,3 +3,16 @@ Among the many string matching algorithms, Rabin-Karp is unique for its use of h
 This algorithm is efficient when multiple pattern matches are needed.
 Streamlit helps in making interactive Python apps easily.
 With Rabin-Karp, finding patterns in text becomes both efficient and elegant.
+
+Pattern matching is a crucial part of information retrieval systems.
+Modern search engines rely on algorithms that quickly scan through vast amounts of text.
+In this context, Rabin-Karp offers a hash-based alternative to brute force matching.
+Unlike naive string comparison, the Rabin-Karp algorithm computes rolling hashes that speed up the search.
+This is especially useful in applications like DNA sequence analysis, plagiarism detection, and data mining.
+
+Streamlit allows developers to turn data science projects into shareable apps with minimal effort.
+By combining Streamlit with Rabin-Karp, we can build intuitive interfaces for powerful text analysis tools.
+Such tools can help students learn algorithms interactively, and assist professionals in automating content checks.
+
+Rabin-Karp may have some limitations due to hash collisions, but in average cases, it performs significantly well.
+Its simplicity and effectiveness make it a go-to choice when implementing custom string search engines.
