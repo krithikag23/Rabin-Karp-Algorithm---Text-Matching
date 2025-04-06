@@ -1,0 +1,5 @@
+Data structures and algorithms are the heart of programming.
+Among the many string matching algorithms, Rabin-Karp is unique for its use of hashing.
+This algorithm is efficient when multiple pattern matches are needed.
+Streamlit helps in making interactive Python apps easily.
+With Rabin-Karp, finding patterns in text becomes both efficient and elegant.
