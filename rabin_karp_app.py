@@ -32,6 +32,29 @@ st.markdown("""
 - DNA sequence searching
 - Search engines
 - Spam filtering
+""")
+
+# --------------------------------------
+# 🧮 Rabin-Karp Algorithm Steps
+# --------------------------------------
+st.markdown("""
+---
+
+### 🧮 Rabin-Karp Algorithm (Step-by-Step)
+
+1. Choose a **prime number** `q` and a **radix/base** `d` (commonly 256).
+2. Compute the **hash value of the pattern** and the **first window of text** using the formula:  
+   `hash = (d * previous_hash + ASCII value of current char) % q`
+3. Slide the pattern over the text:
+    - For each window of the text:
+        - If the **hash matches** with the pattern's hash:
+            - Check characters one by one to confirm the match.
+        - Else, compute the **next hash** using the **rolling hash formula**:  
+          `t_hash = (d*(t_hash - ord(text[i]) * h) + ord(text[i + m])) % q`
+4. Repeat until the end of the text.
+5. Return all starting indices where the pattern matches.
+
+📌 `h = pow(d, m-1) % q` is precomputed for rolling hash optimization.
 
 ---
 """)
@@ -47,7 +70,6 @@ else:
     text = st.text_area("✍️ Or enter your text manually here:", height=200)
 
 pattern = st.text_input("🔡 Enter the pattern to search")
-
 case_sensitive = st.toggle("🔠 Case Sensitive?", value=True)
 
 # --------------------------------------
