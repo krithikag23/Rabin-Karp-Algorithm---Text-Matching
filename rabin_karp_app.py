@@ -9,7 +9,7 @@ st.title("🔍 Rabin-Karp Text Matching App")
 # 📘 Rabin-Karp Theory (Non-Collapsible)
 # --------------------------------------
 st.markdown("""
-### 📘 What is Rabin-Karp?
+### What is Rabin-Karp?
 
 **Rabin-Karp** is a string-searching algorithm that uses hashing to detect the presence of a pattern in a text.
 
