@@ -37,5 +37,5 @@ Rabin-Karp is a pattern matching algorithm that uses **hashing** to find any one
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/rabin-karp-streamlit-app.git
+   git clone https://github.com/krithikag23/rabin-karp-streamlit-app.git
    cd rabin-karp-streamlit-app
