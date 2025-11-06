@@ -6,6 +6,7 @@ import time
 st.set_page_config(page_title="Rabin-Karp Matcher", page_icon="🔍", layout="wide")
 st.title("🔍 Rabin-Karp Text Matching App")
 
+
 # --------------------------------------
 # 📘 Rabin-Karp Theory (Non-Collapsible)
 # --------------------------------------
@@ -165,4 +166,5 @@ if st.button("🚀 Find Matches"):
             file_name="highlighted_output.txt",
             mime="text/plain"
         )
+
 
