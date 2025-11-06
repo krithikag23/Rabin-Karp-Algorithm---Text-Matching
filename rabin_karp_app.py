@@ -2,6 +2,7 @@ import streamlit as st
 import time
 
 # Page Config
+
 st.set_page_config(page_title="Rabin-Karp Matcher", page_icon="🔍", layout="wide")
 st.title("🔍 Rabin-Karp Text Matching App")
 
@@ -164,3 +165,4 @@ if st.button("🚀 Find Matches"):
             file_name="highlighted_output.txt",
             mime="text/plain"
         )
+
