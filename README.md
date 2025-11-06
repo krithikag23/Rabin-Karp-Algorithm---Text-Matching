@@ -7,6 +7,7 @@ A simple and interactive Streamlit web application that demonstrates the **Rabin
 
 ## 📌 Features
 
+
 - ✅ Upload any `.txt` file as input
 - ✅ Search for any pattern using Rabin-Karp algorithm
 - ✅ Highlight matched patterns in the text
